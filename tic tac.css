@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+   
+   background-color: aqua;
+    display: flex;
+     justify-content: center;
+}
+
+main{
+    font-family: Arial, sans-serif;
+    gap: 1.5px;
+    text-align: center;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 100px); /* Adjust width as needed */
+    grid-gap: 5px; /* Adjust gap between buttons */
+    text-align: center;
+    gap: 8px;
+    
+
+}
+.btn{
+    
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #545867;
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color:beige ;
+}
+
+.reset-btn{
+    margin-top: 20px;
+    margin: auto;
+    font-size: large;
+    background-color: red;
+    color: azure;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.restart-game{
+
+    margin: auto;
+    display: block;
+    background-color: red;
+    color: azure;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 10px;
+    padding: 15px;
+    font-size:18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.reset-btn:hover{
+    color: black;
+    background-color:lightgrey;
+
+}
+.restart-game:hover{
+    color: black;
+    background-color:lightgrey;
+    
+}
