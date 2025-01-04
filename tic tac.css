@@ -18,8 +18,8 @@ main{
 
 .container{
     display:grid;
-    grid-template-columns: repeat(3, 100px); /* Adjust width as needed */
-    grid-gap: 5px; /* Adjust gap between buttons */
+    grid-template-columns: repeat(3, 100px); 
+    grid-gap: 5px; 
     text-align: center;
     gap: 8px;
     
